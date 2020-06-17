@@ -15,6 +15,10 @@ repositories {
 		name = "Fabric"
 		url = "https://maven.fabricmc.net/"
 	}
+	maven {
+		name = "ExtraCrafTX"
+		url = "https://maven.extracraftx.com"
+	}
 	jcenter()
 }
 
@@ -26,6 +30,10 @@ dependencies {
 
 	// Fabric API
 	modImplementation("net.fabricmc.fabric-api:fabric-api:${project.fabric_version}")
+
+	// Programmer Art Injector
+    modImplementation("com.extracraftx.minecraft:ProgrammerArtInjector:${project.programmer_art_injector_version}")
+    include("com.extracraftx.minecraft:ProgrammerArtInjector:${project.programmer_art_injector_version}")
 }
 
 processResources {
