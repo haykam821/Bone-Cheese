@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "bonecheese",
+	"version": "${version}",
+	"name": "Bone Cheese",
+	"description": "Adds a bone cheese with ease.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Bone-Cheese#readme",
+		"issues": "https://github.com/haykam821/Bone-Cheese/issues"
+	},
+	"entrypoints": {
+		"main": [
+			"io.github.haykam821.bonecheese.Main"
+		]
+	},
+	"license": "MIT",
+	"icon": "assets/bonecheese/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}
