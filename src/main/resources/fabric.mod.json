@@ -16,6 +16,9 @@
 			"io.github.haykam821.bonecheese.Main"
 		]
 	},
+	"mixins": [
+		"bonecheese.mixin.json"
+	],
 	"license": "MIT",
 	"icon": "assets/bonecheese/icon.png",
 	"depends": {
