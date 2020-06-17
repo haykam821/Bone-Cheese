@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"b",
+		"m"
+	],
+	"key": {
+		"b": {
+			"item": "minecraft:bone"
+		},
+		"m": {
+			"item": "minecraft:milk_bucket"
+		}
+	},
+	"result": {
+		"item": "bonecheese:bone_cheese"
+	}
+}
