@@ -20,7 +20,7 @@
 		"bonecheese.mixin.json"
 	],
 	"license": "MIT",
-	"icon": "assets/bonecheese/icon.png",
+	"icon": "assets/bonecheese/textures/item/bone_cheese.png",
 	"depends": {
 		"fabricloader": ">=0.4.0"
 	}
